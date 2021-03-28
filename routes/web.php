@@ -15,7 +15,7 @@ use VehicleController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome');/*App\Http\Controllers*/
 });
 
 Route::resources([
